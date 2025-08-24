@@ -351,7 +351,8 @@ class CAR(Platforms):
   )
   VOLKSWAGEN_TAOS_MK1 = VolkswagenMQBPlatformConfig(
     [VWCarDocs("Volkswagen Taos 2022-24")],
-    VolkswagenCarSpecs(mass=1498, wheelbase=2.69),
+    #VolkswagenCarSpecs(mass=1498, wheelbase=2.69),
+    VolkswagenCarSpecs(mass=1634, wheelbase=2.69), #MY2025
     chassis_codes={"B2"},
     wmis={WMI.VOLKSWAGEN_MEXICO_SUV, WMI.VOLKSWAGEN_ARGENTINA},
   )
