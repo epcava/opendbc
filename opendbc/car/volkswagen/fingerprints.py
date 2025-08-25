@@ -604,10 +604,13 @@ FW_VERSIONS = {
       b'\xf1\x875QM909144C \xf1\x891082\xf1\x82\x0521060605A1',
       b'\xf1\x875QV907144F \xf1\x891122\xf1\x82\x0001060801]V',
     ],
-    (Ecu.fwdRadar, 0x757, None): [
+    (Ecu.fwdRadar, 0x757, None): [ 
       b'\xf1\x872Q0907567B \xf1\x890534',
       b'\xf1\x872Q0907572AA\xf1\x890396',
       b'\xf1\x872Q0907572T \xf1\x890383',
+    ],
+    (Ecu.fwdCamera, 0x74F, None): [ # <- added camera frmw
+      b'\xf1\x872Q0980653H \xf1\x891602',
     ],
   },
   CAR.VOLKSWAGEN_TCROSS_MK1: {
